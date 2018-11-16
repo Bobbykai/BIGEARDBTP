@@ -1,38 +1,38 @@
-body{
+body,h1,h2,h3{
     margin: 0;
 }
 .Globale{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100vw;
+    background-image: url("../img/background.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: 200vh;
 }
-
-/* LEFT */
-
 .Left{
     position: fixed;
-    width: 20%;
-    height: 100vh;
-    background-color: red;
+    top: 25vh;
+    left: 2vw;
+    height: 50vh;
+    width: 16vw;
+    background-color: #000000;
 }
-.nav{
-    width: 80%;
-    margin-left: 10%;
-    background-color: white;
-    height: 70px;
-}
-
-
-/* RIGHT */
-
-.Right{
-    margin-left: 20%;
-    width: 80%;
-    background-color: black;
-}
-.container{
+.Top{
+    height: 20vh;
     width: 100%;
-    height: 100vh;
     background-color: aliceblue;
-
+}
+.Container{
+    width: 80%;
+    height: 100vh;
+    margin-left: 20%;
+    border: 1px solid #000000;
+}
+.h2{
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 20%;
+    background-color: blueviolet;
+    margin-left: 5%;
+    border-bottom: 3px solid #000000;
 }
