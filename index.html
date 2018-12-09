@@ -1,30 +1,160 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="src/css/style.css" />
+    <script type="text/javascript" src="../BIGEARDBTP/src/js/main.js"></script>
 </head>
+
 <body>
     <div class="Globale">
         <div class="Top"></div>
-        <div class="Container">
-            <h2 class="h2">1</h2>
+        <div class="Container Num1">
+            <div class="Blockvert" id="Ancre1">
+                <div class="vert1"></div>
+                <div class="vert2"></div>
+                <div class="img"></div>
+            </div>
+            <img class="svg" src="../BIGEARDBTP/src/img/arrow.svg" alt="">
         </div>
-        <div class="Container">
-            <h2 class="h2">2</h2>
+        <div class="Container Num2">
+            <h2 class="h2" id="Ancre2">Présentation</h2>
+            <p class="p">Qui officiis in ea impedit veniam illum corporis fugit. Dicta totam nesciunt voluptas. Expedita ab non inventore. Et quia consequatur aliquid ab. Doloribus praesentium vitae excepturi inventore eveniet maiores ratione quae. Explicabo impedit
+                sapiente.
+            </p>
+            <div class="Num2-1">
+                <div class="Num2-1-1">
+                    <div class="Num2-1-1-1">
+                        <img src="../BIGEARDBTP/src/img/comp1.svg" alt="Maison">
+                        <p>Maison</p>
+                    </div>
+                    <div class="Num2-1-1-2">
+                        <img src="../BIGEARDBTP/src/img/comp3.svg" alt="Immeuble">
+                        <p>Immeuble</p>
+                    </div>
+                    <div class="Num2-1-1-3">
+                        <img src="../BIGEARDBTP/src/img/comp2.svg" alt="Usine">
+                        <p>Usine</p>
+                    </div>
+                </div>
+                <div class="Num2-1-2">
+                    <div class="Num2-1-2-1"></div>
+                    <div class="Num2-1-2-2">
+                    </div>
+                    <div class="Num2-1-2-3"></div>
+                </div>
+                <div class="Num2-1-3">
+                    <p>Hic blanditiis quis in similique quis vel eos maiores. <br> Architecto omnis exercitationem doloremque amet.</p>
+                    <div class="Num2-1-3-2">
+                        <img src="../BIGEARDBTP/src/img/star.svg" alt="etoile">
+                        <img src="../BIGEARDBTP/src/img/star.svg" alt="etoile">
+                        <img src="../BIGEARDBTP/src/img/star.svg" alt="etoile">
+                        <img src="../BIGEARDBTP/src/img/star.svg" alt="etoile">
+                        <img src="../BIGEARDBTP/src/img/star.svg" alt="etoile">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="Container">
-            <h2 class="h2">3</h2>
-        </div>
-        <div class="Container">
-            <h2 class="h2">4</h2>
+        <div class="Container Num3">
+            <h2 class="h2" id="Ancre3">L'équipe</h2>
+            <p>
+                Suscipit temporibus voluptatum. Aliquid sed laboriosam optio. Et tempora vero id voluptatem perspiciatis voluptas vitae. Animi quos dicta distinctio porro accusantium architecto natus hic. Quis sequi repudiandae quia consequatur in. Voluptatum necessitatibus
+                temporibus. Deserunt voluptatem velit quidem esse consequatur atque ut.Soluta consequatur quia provident qui deleniti. Dolore aut animi enim fugiat delectus. Facere impedit sit tenetur tenetur omnis optio tempora saepe. Et quae reiciendis
+                minus.
+            </p>
+            <p>
+                Nam debitis expedita. Illo eius maiores molestiae adipisci doloremque ut. Est inventore placeat mollitia. Eum error fugiat. Et rem tempore dolorem non placeat non. Alias repudiandae iure unde praesentium sit voluptas in. Nulla sunt et qui quidem nam voluptatem
+                amet. Quis consectetur voluptatem. Ut saepe qui accusamus iste dolore aliquid. Rerum reprehenderit rerum sequi provident consequuntur commodi.Soluta consequatur quia provident qui deleniti. Dolore aut animi enim fugiat delectus. Facere
+                impedit sit tenetur tenetur omnis optio tempora saepe. Et quae reiciendis minus.</p>
+            <div class="Num3-1">
+                <p>Soluta consequatur quia provident expedita. Illo eius maiores molestiae adipisci doloremque ut. Est inventore placeat mollitia. Eum error fugiat. Et rem tempore dolorem non placeat non. Alias repudiandae iure unde praesentium sit voluptas
+                    in. Nulla sunt et qui qui deleniti. Dolore aut animi enim fugiat delectus. Facere impedit sit tenetur tenetur omnis optio tempora saepe. Et quae reiciendis minus.</p>
+                <img src="./src/img/SOLDATBIGEARD.png" alt="">
+            </div>
         </div>
     </div>
+    <div class="Container Num4">
+        <img src="" alt="">
+        <div class="Num4-1">
+            <h2 class="h2" id="Ancre4">A propos</h2>
+            <h2 class="h2" id="Ancre4">Contactez-nous :</h2>
+            <div class="Num4-1-1">
+                <div class="Num4-1-1-1"></div>
+                <div class="container-form">
+                    <form action="/action_page.php">
+                        <label for="fname">Prénom</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Ton prénom .." onkeyup="verif(this);" required>
+
+                        <label for="lname">Nom</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Ton nom .." onkeyup="verif(this);" required>
+                        <label for="country">Pays</label>
+                        <select id="country" name="country" required>
+                        <option value="france">France</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+
+                        <label for="subject">Commentaire (facultatif)</label>
+                        <textarea id="subject" name="subject" placeholder="Ecrire ici.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
     <div class="Left">
-        MENU
+        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 400" style="enable-background:new 0 0 200 400;" xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #717171;
+                }
+        
+                .st2 {
+                    font-size: 24px;
+                }
+        
+                .st3 {
+                    fill: none;
+                    stroke: #717171;
+                    stroke-width: 2;
+                    stroke-miterlimit: 10;
+                }
+                .test:hover {
+                    scale: (0.5);
+                }
+
+            </style>
+            <a href="#Ancre1"><text transform="matrix(1 0 0 1 59.9476 120.6842)" class="st0 st1 st2">Accueil</text></a>
+            <a href="#Ancre2"><text transform="matrix(1 0 0 1 59.9475 179.614)" class="st0 st1 st2">Présentation</text></a>
+            <a href="#Ancre3"><text transform="matrix(1 0 0 1 59.9476 239.7368)" class="st0 st1 st2">L’équipe</text></a>
+            <a href="#Ancre4"><text transform="matrix(1 0 0 1 59.9475 300.4211)" class="st0 st1 st2">A propos</text></a>
+            <path class="st3 test" d="M30,120.7L30,120.7c-2.8,0-5-2.3-5-5v0c0-2.7,2.2-5,5-5h0c2.7,0,5,2.3,5,5v0C35,118.4,32.8,120.7,30,120.7z" />
+            <path class="st3 test" d="M30,178.8L30,178.8c-2.8,0-5-2.3-5-5l0,0c0-2.8,2.2-5,5-5h0c2.7,0,5,2.3,5,5l0,0C35,176.6,32.8,178.8,30,178.8z
+        	" />
+            <path class="st3 test" d="M30,239.9L30,239.9c-2.8,0-5-2.3-5-5v0c0-2.7,2.2-5,5-5h0c2.7,0,5,2.3,5,5v0C35,237.7,32.8,239.9,30,239.9z" />
+            <path class="st3 test" d="M30,301L30,301c-2.8,0-5-2.3-5-5l0,0c0-2.8,2.2-5,5-5h0c2.7,0,5,2.3,5,5l0,0C35,298.8,32.8,301,30,301z" />
+            <path class="st0" d="M30,118.2L30,118.2c-1.4,0-2.5-1.1-2.5-2.5l0,0c0-1.4,1.1-2.5,2.5-2.5h0c1.4,0,2.5,1.1,2.5,2.5l0,0
+        	C32.5,117.1,31.4,118.2,30,118.2z" />
+            <path class="st0" d="M30,176.3L30,176.3c-1.4,0-2.5-1.1-2.5-2.5l0,0c0-1.4,1.1-2.5,2.5-2.5h0c1.4,0,2.5,1.1,2.5,2.5l0,0
+        	C32.5,175.2,31.4,176.3,30,176.3z" />
+            <path class="st0" d="M30,237.4L30,237.4c-1.4,0-2.5-1.1-2.5-2.5l0,0c0-1.4,1.1-2.5,2.5-2.5h0c1.4,0,2.5,1.1,2.5,2.5l0,0
+        	C32.5,236.3,31.4,237.4,30,237.4z" />
+            <path class="st0" d="M30,298.5L30,298.5c-1.4,0-2.5-1.1-2.5-2.5l0,0c0-1.4,1.1-2.5,2.5-2.5h0c1.4,0,2.5,1.1,2.5,2.5l0,0
+            C32.5,297.4,31.4,298.5,30,298.5z" />
+            <line class="st3 test" x1="30" y1="120.7" x2="30" y2="168.8" />
+            <line class="st3 test" x1="30" y1="178.8" x2="30" y2="229.9" />
+            <line class="st3 test" x1="30" y1="239.9" x2="30" y2="291" />
+        </svg>
     </div>
+
 </body>
+
 </html>
